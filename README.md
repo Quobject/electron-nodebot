@@ -7,9 +7,9 @@ Usually the Arduino Sketch is directly saved into the board and if you want to c
 
 There is another way to make it possible, it’s called Firmata. Firmata is a general purpose protocol to control microcontroller from outside using a serial connection.
 Once the standard Firmata firmware is loaded in the microcontroller you can send and receive data and instruction to the board using one of the client library available.
-This code uses the Johnny-five client library http://johnny-five.io/, electron http://electron.atom.io/ as client, NodeJS as server and socket.io as the connection between client and server.
+This code uses the Johnny-five client library http://johnny-five.io/, electron http://electron.atom.io/ as client, NodeJS as server and (socket.io)[socket.io] as the connection between client and server.
 
-![Client](/images/client.png)
+![Client](./images/client.png)
 
 ## Installation
 ```bash
@@ -19,7 +19,7 @@ npm install
 ```
 
 ## arduino
-Connect pin 13 over 330 Ohm resistor to LED e.g [www.ladyada.net](http://www.ladyada.net/images/arduino/led13bb.jpg)
+Connect pin 13 over 330 Ohm resistor to LED e.g [www.ladyada.net](http://www.ladyada.net/images/arduino/led13bb.jpg)  
 Upload `Firmata > StandardFirmataPlus`
 
 
