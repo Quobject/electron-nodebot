@@ -1,7 +1,7 @@
 ﻿# electron-nodebot
 
 
-*Control arduino with NodeJS, Socket.io, Johnny Five and Electron*
+**Example to show how to to control arduino with NodeJS, socket.io, Johnny Five and Electron**
 
 Usually the Arduino Sketch is directly saved into the board and if you want to control it from outside you have to write a protocol yourself to give instruction to the microcontroller.
 
@@ -18,7 +18,7 @@ cd electron-nodebot
 npm install
 ```
 
-## arduino
+## Arduino
 Connect pin 13 over 330 Ohm resistor to LED e.g [www.ladyada.net](http://www.ladyada.net/images/arduino/led13bb.jpg)  
 Upload `Firmata > StandardFirmataPlus`
 
