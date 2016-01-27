@@ -33,3 +33,9 @@ Open another terminal window
 cd electron-nodebot
 npm run client
 ```
+
+See also [boscode-learn arduino-tasks](https://github.com/Quobject/boscode-learn/blob/master/arduino-tasks.md)
+
+## Licence
+
+MIT
