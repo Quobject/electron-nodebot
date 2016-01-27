@@ -5,7 +5,7 @@
 
 Usually the Arduino Sketch is directly saved into the board and if you want to control it from outside you have to write a protocol yourself to give instruction to the microcontroller.
 
-This code uses the Johnny-five client library http://johnny-five.io/, electron http://electron.atom.io/ as client, NodeJS as server and [socket.io[(socket.io) as the connection between client and server.
+This code uses the Johnny-five client library http://johnny-five.io/, electron http://electron.atom.io/ as client, NodeJS as server and [socket.io](socket.io) as the connection between client and server.
 
 ![Client](./images/client.png)
 
