@@ -1,8 +1,5 @@
 ﻿Control arduino with NodeJS, Socket.io, Johnny Five and Electron
 
-[![NPM](https://nodei.co/npm/electron-nodebot.png?downloads=true&downloadRank=true)](https://nodei.co/npm/electron-nodebot/)
-[![NPM](https://nodei.co/npm-dl/electron-nodebot.png?months=6&height=3)](https://nodei.co/npm/electron-nodebot/)
-
 Usually the Arduino Sketch is directly saved into the board and if you want to control it from outside you have to write a protocol yourself to give instruction to the microcontroller.
 
 There is another way to make it possible, it’s called Firmata. Firmata is a general purpose protocol to control microcontroller from outside using a serial connection.
