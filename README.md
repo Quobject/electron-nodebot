@@ -1,4 +1,7 @@
-﻿Control arduino with NodeJS, Socket.io, Johnny Five and Electron
+﻿# electron-nodebot
+
+
+*Control arduino with NodeJS, Socket.io, Johnny Five and Electron*
 
 Usually the Arduino Sketch is directly saved into the board and if you want to control it from outside you have to write a protocol yourself to give instruction to the microcontroller.
 
